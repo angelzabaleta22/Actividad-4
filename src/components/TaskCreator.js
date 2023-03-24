@@ -18,8 +18,8 @@ export const TaskCreator = ({ createNewTask }) => {
           value={newTaskName}
           onChange={(e) => setNewTaskName(e.target.value)}
           className="form-control"
-        ></input>{" "}
-      </div>
+        ></input>
+      </div>{" "}
       <div className="col-3">
         <button className="btn btn-primary btn-sm">Guardar</button>
       </div>

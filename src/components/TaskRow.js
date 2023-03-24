@@ -4,6 +4,7 @@ export const TaskRow = ({ task, toggleTask }) => {
       <td className="d-flex justify-content-between">
         {task.name}
         <input
+          style={{ cursor: "pointer" }}
           type="checkbox"
           checked={task.done}
           onChange={() => toggleTask(task)}
